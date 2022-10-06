@@ -1,23 +1,38 @@
-## Cost of living
+## 💸🏙️ Cost of living 🏙️💸
 
-## Technologies used and why.
 
-For this project, I need to create a Profession Portfolio using all skills learned so far in this course. For that, I used HTML and CSS to create the interface and first steps for what in future is supposed to be my interactive and complete portfolio.
+## Project overview
+
+This project is collaborative work among a group of 4 developers in order to create an application that solves a real-world problem. As topic for this problem, we choose to create an website that generate information about cost of living in different cities around the world.
+
+## Technologies used and why
+
+For this project we used technologies as HTML, CSS and Bootstrap to create the interface, Javascript to add more interaction with the user. 
 
 ## Challenges for future improvement
 
-During this project I had been trough challenges as searching online for the right CSS codes to implement, also for future I hope to improve this portfolio adding more interaction using JavaScript and other technologies that I'm still learning.
+At the beginning of this project, we will face some challenges as work as group for the first time, so we should be able to assign duties for each member, share skills and knowledge with each other and lean o our strengths. Constant communication and time management is two important skills to apply during this whole project. 
+When it comes about challenges for technologies used on this project, we can mention that .......
+
+## The Requirements
+
+This project consists in creating a application that the user can navigate, and understand better the cost of living in different cities around the world. The main requirements for this projects are:
+
+- Using a CSS framework other than bootstrap
+- Use at least two [server-side APIs](https://coding-boot-camp.github.io/full-stack/apis/api-resources).
+- Does not use alerts, confirms, or prompts (use modals.)
+- Use client-side storage to store persistent data.
+- Be responsive.
+- Have a polished UI.
+- Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
+- Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
 ## The Project
 
-This challenge consists in creating a professional portfolio using only HTML and CSS. The main requirements for this projects are:
-
-- Is presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-- When clicks one of the links in the navigation, the UI scrolls to the corresponding section
-- When clicks on the link to the section about their work, the UI scrolls to a section with titled images of the developer's applications
-- The first application's image should be larger in size than the others
-- Clicking on the images of the applications, takes to that deployed application
-- When resize the page or view the site on various screens and devices, is presented with a responsive layout that adapts to my viewport
+- 
+- 
+- 
+- 
 
 ## Link to deployed application
 
