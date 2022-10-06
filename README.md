@@ -1,4 +1,4 @@
-<h1 align="center">## 💸🏙️ Cost of living 🏙️💸</h1>
+<h1 align="center"> 💸🏙️ Cost of living 🏙️💸 </h1>
 
 
 ## Project overview
