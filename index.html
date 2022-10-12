@@ -2,11 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>COST OF LIVE IN DIFFERENT CITIES</title>
 </head>
 <body>
-    
+    <main class="flex-row justify-space-between">
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <h3 class="card-header text-uppercase">Search by City</h3>
+            <form id="city-form" class="card-body">
+              <label class="form-label" for="cityname">City Name</label>
+                <input name="cityName" id="cityName" type="text" autofocus="true" class="form-input" />
+              <label class="form-label" for="cityName">Country Name</label>
+                <input name="countryName" id="countryName" type="text" autofocus="true" class="form-input" />
+              <button type="click" class="btn">Get City</button>
+            </form>
+          </div>
+    </main>
+
+
+
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
