@@ -1,31 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>COST OF LIVE IN DIFFERENT CITIES</title>
+  <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>COST OF LIVING IN DIFFERENT CITIES</title>
+
 </head>
+
 <body>
-    <main class="flex-row justify-space-between">
-        <div class="col-12 col-md-4">
-          <div class="card">
-            <h3 class="card-header text-uppercase">Search by City</h3>
-            <form id="city-form" class="card-body">
-              <label class="form-label" for="cityname">City Name</label>
-                <input name="cityName" id="cityName" type="text" autofocus="true" class="form-input" />
-              <label class="form-label" for="cityName">Country Name</label>
-                <input name="countryName" id="countryName" type="text" autofocus="true" class="form-input" />
-              <button type="click" class="btn">Get City</button>
-            </form>
-          </div>
-    </main>
+  <main class="flex-row justify-space-between">
+    <div class="col-6">
+      <div class="card">
+        <h1 class="card-header text-uppercase">Search by City</h1>
+        <form id="city-form" class="card-body">
+          <label class="form-label" for="cityname">City Name</label>
+          <input value="madrid" name="cityName" id="cityName" type="text" autofocus="true" class="form-control" />
+          <label class="form-label" for="cityName">Country Name</label>
+          <input value="spain" name="countryName" id="countryName" type="text" autofocus="true" class="form-control" />
+          <button type="click" class="btn">Get City</button>
+        </form>
+      </div>
+  </main>
+
+  
+    <h2>Categories:</h2>
+
+    <ul id="table-contents">
+      <!-- <li></li> -->
+  </ul>
+  
+  <div id="category-contents"></div>
+
+    
+
+    <!-- <div id="Childcare">
+      <h3>Childcare</h3>
+    </div>
+
+    <div id="Clothing And Shoes">
+      <h3>Clothing And Shoes</h3>
+    </div>
+
+    <div id="Markets">
+      <h3>Markets</h3>
+    </div>
+
+    <div id="Rent Per Month">
+      <h3>Rent Per Month</h3>
+    </div>
+
+    <div id="Restaurants">
+      <h3>Restaurants</h3>
+    </div>
+
+    <div id="Salaries And Financing">
+      <h3>Salaries And Financing</h3>
+    </div>
+
+    <div id="Sports And Leisure">
+      <h3>Sports And Leisure</h3>
+    </div>
+
+    <div id="Transportation">
+      <h3>Transportation</h3>
+    </div>
+
+    <div id="Utilities Per Month">
+      <h3>Utilities Per Month</h3>
+    </div> -->
+
+ 
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 
-<script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
 </body>
+
 </html>
