@@ -54,7 +54,7 @@ function getCityName(cityName, countryName) {
 		let listItem= ""
 		for (const item of data[category]) {
 		
-			listItem= listItem+`<li>${item.item_name}-<b>$ ${item.avg}</b></li>`
+			listItem= listItem+`<li>${item.item_name} - <b>  ${item.currency_code} ${item.avg}  </b></li>`
 		}
 
 		ElementCat.insertAdjacentHTML("beforeend",`<div>
