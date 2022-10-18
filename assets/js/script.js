@@ -54,11 +54,10 @@ function getCityName(cityName, countryName) {
 		
 			listItem= listItem+`
 			<tr>
-			<th scope="row" class='justify-content-between'><li></li></th>
+			<th scope="row"><li></li></th>
 			<td>${item.item_name}</td>
-			<td><b>${item.currency_code}</b></td>
-			<td><b>${item.avg}</b></td>
-		  </tr>`
+			<td class="d-flex justify-content-end"><b>${item.currency_code}  ${item.avg}</b></td>
+			</tr>`
 		}
 
 		ElementCat.insertAdjacentHTML("beforeend",`<div>
