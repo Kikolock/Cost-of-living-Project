@@ -2,10 +2,10 @@ var cityFormEl = document.querySelector("#city-form");
 
 var formSubmitHandler = function (event) {
 	event.preventDefault();
-
+//get value from the input element
 	var cityName = document.getElementById('cityName');
 	var countryName = document.getElementById('countryName');
-
+// If city and country name are input into search box, call value for both
 	if (cityName && countryName) {
 		getCityName(cityName.value, countryName.value);
 	}
