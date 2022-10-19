@@ -36,7 +36,7 @@ This project consists in creating a application that the user can navigate, and 
 
 ## Link to deployed application
 
-link: ...
+link: https://kikolock.github.io/Cost-of-living-Project/
 
 ![My Remote Image](...)
 

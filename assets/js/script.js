@@ -1,7 +1,4 @@
-
-
 var cityFormEl = document.querySelector("#city-form");
-
 
 var formSubmitHandler = function (event) {
 	event.preventDefault();
@@ -67,17 +64,10 @@ function getCityName(cityName, countryName) {
 		</tbody>
 		</table>
 	  `)
-
-		
 	  }
-
-
 	})
 	.catch(err => console.error(err));
 }
 
 
 cityFormEl.addEventListener("submit", formSubmitHandler);
-
-
-
